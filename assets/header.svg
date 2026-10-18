@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="220" viewBox="0 0 900 220" role="img" aria-labelledby="title desc">
+  <title id="title">DongChen Zheng</title>
+  <desc id="desc">Robotics, Vision-Language-Action, and World Models. A blue robot arm follows a dotted trajectory.</desc>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1">
+      <stop stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#172b46"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#93c5fd" opacity=".12"/>
+    </pattern>
+  </defs>
+  <rect width="900" height="220" rx="18" fill="url(#background)"/>
+  <rect x="570" width="330" height="220" rx="18" fill="url(#grid)"/>
+  <rect x="38" y="39" width="32" height="3" rx="1.5" fill="#60a5fa"/>
+  <text x="38" y="69" fill="#93c5fd" font-family="Arial, sans-serif" font-size="12" letter-spacing="3">EMBODIED INTELLIGENCE</text>
+  <text x="36" y="120" fill="#f8fafc" font-family="Arial, sans-serif" font-size="39" font-weight="700">DongChen Zheng</text>
+  <text x="38" y="154" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="16">Robotics · Vision-Language-Action · World Models</text>
+  <text x="38" y="187" fill="#7f9aba" font-family="Arial, sans-serif" font-size="12" letter-spacing="1">HUMAN EXPERIENCE → ROBOT SKILLS</text>
+  <g fill="none" stroke="#60a5fa" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M620 183H836" stroke="#476587" stroke-width="1"/>
+    <path d="M639 179H685M650 179V166H674V179" stroke-width="5"/>
+    <path d="M662 166L695 111L750 135L781 91" stroke-width="12"/>
+    <path d="M776 81L790 91M787 79L790 91L802 88" stroke-width="4"/>
+    <circle cx="662" cy="165" r="8" fill="#0f1c2e" stroke-width="4"/>
+    <circle cx="695" cy="111" r="9" fill="#0f1c2e" stroke-width="4"/>
+    <circle cx="750" cy="135" r="8" fill="#0f1c2e" stroke-width="4"/>
+    <path d="M735 66Q784 29 826 73T842 136" stroke="#8bb8e8" stroke-width="1.5" stroke-dasharray="3 7" opacity=".7"/>
+    <circle cx="842" cy="136" r="12" stroke="#93c5fd" opacity=".6"/>
+    <circle cx="842" cy="136" r="4" fill="#93c5fd" stroke="none">
+      <animate attributeName="opacity" values=".35;1;.35" dur="4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>
